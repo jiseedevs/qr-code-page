@@ -1,0 +1,121 @@
+body {
+    box-sizing: border-box;
+    font-size: .9375rem;
+    font-family: 'Outfit', sans-serif;
+    margin: auto;
+    background-color: hsl(212, 45%, 89%);
+    text-align: center;
+}
+
+.container {
+    padding: 10% 0 0 0;
+}
+
+.qr-container {
+    margin: auto;
+    width: 30%;
+    padding: 1rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    box-shadow: 5px 5px 8px hsl(213, 27%, 83%);
+}
+
+.qr-code {
+    width: 100%;
+    border-radius: 1rem;
+    font-weight: 700;
+}
+
+.qr-text {
+    margin-bottom: 2.5rem;
+}
+
+.qr-text h1 {
+    margin: 1.5rem auto;
+    font-size: 1.5rem;
+    color: hsl(218, 44%, 22%);
+}
+
+.qr-text p {
+    width: 90%;
+    margin: auto;
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.attribution a {
+color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        padding: 10% 0 0 0;
+    }
+    
+    .qr-container {
+        margin: auto;
+        width: 75%;
+        padding: 1rem;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 1rem;
+        box-shadow: 5px 5px 8px hsl(213, 27%, 83%);
+    }
+
+    .qr-text h1 {
+        margin: 1rem auto;
+        color: hsl(218, 44%, 22%);
+        font-size: 1.5rem;
+    }
+
+    .qr-text p {
+        width: 90%;
+        margin: auto;
+        font-weight: 300;
+        font-size: 1rem;
+        color: hsl(220, 15%, 55%);
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        padding: 10% 0 0 0;
+    }
+
+    .qr-container {
+        margin: auto;
+        width: 30%;
+        padding: 1rem;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 1rem;
+        box-shadow: 5px 5px 8px hsl(213, 27%, 83%);
+    }
+}
+
+@media screen and (min-width: 1001px) {
+    .container {
+        padding: 10% 0 0 0;
+    }
+
+    .qr-container {
+        margin: auto;
+        width: 30%;
+        padding: 1rem;
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 1rem;
+        box-shadow: 5px 5px 8px hsl(213, 27%, 83%);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        padding: 5% 20% 0 20%;
+    }
+}
